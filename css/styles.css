@@ -1,0 +1,79 @@
+.button {
+	background-color: #4CAF50; /* Green */
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 11px;
+	margin: 0 2px;
+	cursor: pointer;
+	border-radius: 30px;
+}
+.button-shaded {
+	background-color: #808080;
+	border: none;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 11px;
+	margin: 0 2px;
+	cursor: pointer;
+	border-radius: 30px;
+}
+table {
+	border-radius: 10px;
+	background-color: #DCDCDC;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+body {
+	background-image: url('https://images.pexels.com/photos/1587/blurred-background.jpg?auto=compress&cs=tinysrgb&dpr=2&w=500');  
+	/* Full height */
+	height: 100%; 
+
+	/* Center and scale the image nicely */
+	background-position: center;
+
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
+	background-size: cover;
+}
+
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:20px;
+  margin-right:5 px;
+}
+  
+.column {
+  float: left;
+  width: 50%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+	font-size: 18px;
+	font-family: sans-serif;
+	font-weight: bold; 
+}
